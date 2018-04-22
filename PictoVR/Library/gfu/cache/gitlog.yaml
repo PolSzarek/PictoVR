@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: bb0f8bce6cf1f134084ddba3a243f58f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2018-04-22T11:35:10.3606238+02:00
+  initializedAtString: 2018-04-22T11:33:09.8965496+02:00
+  log:
+  - commitID: 686d6912b66cb235c019e4fb686158850802a153
+    mergeA: 
+    mergeB: 
+    authorName: Pol Szarek
+    authorEmail: polygam3@gmail.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Initial commit
+    description: Initial commit
+    timeString: 2018-04-16T18:08:15.0000000+09:00
+    commitTimeString: 2018-04-16T18:08:15.0000000+09:00
+    changes:
+    - path: README.md
+      fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\README.md
+      projectPath: ..\README.md
+      originalPath: 
+      status: 4
+      staged: 0
