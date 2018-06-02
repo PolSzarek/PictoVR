@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Adam Interior Environment/Scenes/InteriorEnvironment.unity
+- path: C:/Users/Pierrick/Documents/KMU/PictoVR/PictoVR/Assets/Scenes/FlashLight Level.unity
   isLoaded: 1
   isActive: 1

@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-04-22T11:33:14.4527816+02:00
-  initializedAtString: 2018-04-22T11:33:14.4362613+02:00
+  lastUpdatedAtString: 2018-05-20T22:49:37.3799776+09:00
+  initializedAtString: 2018-05-20T22:49:37.3444527+09:00
   localBranches:
   - name: master
     tracking: origin/master
   remoteBranches:
-  - name: origin/HEAD
+  - name: origin/master
     tracking: '[None]'
   remotes:
   - name: origin
@@ -42,10 +42,10 @@ MonoBehaviour:
     - origin
     subKeys:
     - Values:
-      - HEAD
+      - master
     subKeyValues:
     - Values:
-      - name: HEAD
+      - name: master
         remote:
           name: origin
           url: https://github.com/PolSzarek/PictoVR.git

@@ -1,9 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictoVR", "Assembly-CSharp.csproj", "{2502CA4A-0A8F-4315-D69F-DE3A1C5D1069}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictoVR", "PictoVR.csproj", "{02B66D77-085B-8450-FAE4-89DBA3516844}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictoVR", "Assembly-CSharp-Editor.csproj", "{291E4EF5-87B7-E0A1-9724-24CE712F19A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictoVR.Editor", "PictoVR.Editor.csproj", "{CA203D64-4FCB-6C15-E038-CF86A23E2272}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,19 +11,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2502CA4A-0A8F-4315-D69F-DE3A1C5D1069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2502CA4A-0A8F-4315-D69F-DE3A1C5D1069}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2502CA4A-0A8F-4315-D69F-DE3A1C5D1069}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2502CA4A-0A8F-4315-D69F-DE3A1C5D1069}.Release|Any CPU.Build.0 = Release|Any CPU
-		{291E4EF5-87B7-E0A1-9724-24CE712F19A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{291E4EF5-87B7-E0A1-9724-24CE712F19A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{291E4EF5-87B7-E0A1-9724-24CE712F19A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{291E4EF5-87B7-E0A1-9724-24CE712F19A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02B66D77-085B-8450-FAE4-89DBA3516844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02B66D77-085B-8450-FAE4-89DBA3516844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02B66D77-085B-8450-FAE4-89DBA3516844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02B66D77-085B-8450-FAE4-89DBA3516844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA203D64-4FCB-6C15-E038-CF86A23E2272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA203D64-4FCB-6C15-E038-CF86A23E2272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA203D64-4FCB-6C15-E038-CF86A23E2272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA203D64-4FCB-6C15-E038-CF86A23E2272}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
