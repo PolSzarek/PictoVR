@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class PictoGameManager : MonoBehaviour
@@ -34,6 +35,10 @@ public class PictoGameManager : MonoBehaviour
 
 	private Button nextRoundButton;
 	private GameObject pen;
+	private TextMeshProUGUI resultText;
+	private GameObject _canvasGameEnd;
+	private TextMeshProUGUI finalScoreText;
+	private Button quitButton;
 
 	// Use this for initialization
 	void Start () 
@@ -53,26 +58,68 @@ public class PictoGameManager : MonoBehaviour
 	{
 		if (timerStarted)
 		{
-			currentTime -= Time.time;
+			currentTime -= Time.deltaTime;
 			timerText.text = String.Format("{0:0}",currentTime);
 			if (currentTime < 0)
 			{
 				timerStarted = false;
 				timerText.text = 0 + "";
+				if (isTeamAPlaying)
+					resultText.text = "You found " + scoreTeamA / WORD_SCORE + " words";
+				else
+				{
+					resultText.text = "You found " + scoreTeamB / WORD_SCORE + " words";
+					currentRound++;
+				}
+				_roundCanvasEnd.gameObject.SetActive(true);
 				_roundCanvasEnd.SetActive(true);
+				_roundCanvasEnd.GetComponent<Canvas>().enabled = true;
+				_roundCanvasEnd.GetComponent<Canvas>().gameObject.SetActive(true);
+				if (currentRound >= nbRounds)
+				{
+					nextRoundButton.GetComponentInChildren<TextMeshProUGUI>().text = "End";
+					nextRoundButton.onClick.RemoveListener(StartRound);
+					nextRoundButton.onClick.AddListener(EndGame);
+
+				}
 			}
 		}
 
 		if (pencilGrabbed)
 			StartLevel();
 	}
-	
+
+	private void EndGame()
+	{
+		_roundCanvasEnd.gameObject.SetActive(false);
+		_roundCanvasEnd.SetActive(false);
+		_roundCanvasEnd.GetComponent<Canvas>().enabled = false;
+		_roundCanvasEnd.GetComponent<Canvas>().gameObject.SetActive(false);
+		
+		if (scoreTeamA > scoreTeamB)
+			finalScoreText.text = "Team RED Won!";
+		else if (scoreTeamB > scoreTeamA)
+		{
+			finalScoreText.text = "Team BLUE Won!";
+		}
+		else
+		{
+			finalScoreText.text = "Draw, Nobody Won...";
+
+		}
+		_canvasGameEnd.SetActive(true);
+	}
+
 	void StartLevel()
 	{
+		Debug.Log("----------------- START LEVEL");
 		_roundCanvasInit.gameObject.SetActive(false);
 		
 		timerStarted = true;
 		currentTime = timeRounds;
+		Debug.Log("-----------Current time " + currentTime);
+		pencilGrabbed = false;
+
 		// select random world & show on HTC screen
 	}
 	
@@ -97,11 +144,17 @@ public class PictoGameManager : MonoBehaviour
 		Debug.Log("----------------- START NEW ROUND");
 
 		isTeamAPlaying = !isTeamAPlaying;
-		
-		_roundCanvasEnd.gameObject.SetActive(false);
-		_roundCanvasInit.gameObject.SetActive(true);
-		_drawingSupport.GetComponent<DrawingSupport>().Clear();
 		pencilGrabbed = false;
+
+		_roundCanvasInit.gameObject.SetActive(true);
+
+		_roundCanvasEnd.gameObject.SetActive(false);
+		_roundCanvasEnd.SetActive(false);
+		_roundCanvasEnd.GetComponent<Canvas>().enabled = false;
+		_roundCanvasEnd.GetComponent<Canvas>().gameObject.SetActive(false);
+		
+		
+		_drawingSupport.GetComponent<DrawingSupport>().Clear();
 		pen.GetComponent<PenScript>().ResetPen();
 
 		
@@ -121,6 +174,7 @@ public class PictoGameManager : MonoBehaviour
 		_spectatorsCanvas = GameObject.Find("SpectatorsCanvas");
 		_roundCanvasInit = GameObject.Find("SpectatorsCanvasRoundInit");
 		_roundCanvasEnd = GameObject.Find("SpectatorsCanvasRoundEnd");
+		_canvasGameEnd = GameObject.Find("SpectatorsCanvasEndGame");
 
 		
 		GameObject timerTextGO = GameObject.Find("TimerText");
@@ -146,10 +200,24 @@ public class PictoGameManager : MonoBehaviour
 		
 		nextRoundButton.onClick.AddListener(StartNewRound);
 		
+		GameObject resultTextGO = GameObject.Find("ResultText");
+		resultText = resultTextGO.GetComponent<TextMeshProUGUI>();
+		
+		GameObject finalScoreTextGO = GameObject.Find("FinalScoreText");
+		finalScoreText = finalScoreTextGO.GetComponent<TextMeshProUGUI>();
+		
 		pen = GameObject.Find("Pen");
-			
+	
+		GameObject quitButtonGO = GameObject.Find("QuitButton");
+		quitButton = quitButtonGO.GetComponent<Button>();
+		
+		quitButton.onClick.AddListener(QuitGame);
+		
 		_roundCanvasEnd.SetActive(false);
-
+		_canvasGameEnd.SetActive(false);
+		
+		
+	
 		StartRound();
 		// pen grabbed = start timer
 
@@ -157,7 +225,12 @@ public class PictoGameManager : MonoBehaviour
 		// count score
 
 	}
-	
+
+	private void QuitGame()
+	{
+		Application.Quit();
+	}
+
 	void ValidateWord()
 	{
 		Debug.Log("Validate WORD");

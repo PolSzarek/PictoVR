@@ -520,10 +520,10 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="TextMeshPro-2017.3-Editor">
-      <HintPath>C:/Users/Alexis/Documents/GitHub/Copy/PictoVR/PictoVR/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
+      <HintPath>C:/Users/Alexis/Documents/GitHub/PictoVR/Copy/PictoVR/PictoVR/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
     </Reference>
     <Reference Include="TextMeshPro-2017.3-Runtime">
-      <HintPath>C:/Users/Alexis/Documents/GitHub/Copy/PictoVR/PictoVR/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
+      <HintPath>C:/Users/Alexis/Documents/GitHub/PictoVR/Copy/PictoVR/PictoVR/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
