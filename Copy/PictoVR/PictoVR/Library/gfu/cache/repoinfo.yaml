@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-06-04T06:37:17.2456959+02:00
-  initializedAtString: 2018-06-04T06:37:17.2456959+02:00
+  lastUpdatedAtString: 2018-06-04T06:42:43.2994990+02:00
+  initializedAtString: 2018-06-04T06:42:43.2994990+02:00
   currentGitRemote:
     name: origin
     url: https://github.com/PolSzarek/PictoVR.git

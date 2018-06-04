@@ -12,48 +12,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-06-04T06:36:49.7718026+02:00
-  initializedAtString: 2018-06-04T05:58:24.9534329+02:00
+  lastUpdatedAtString: 2018-06-04T06:47:02.3638563+02:00
+  initializedAtString: 2018-06-04T06:44:41.1052643+02:00
   entries:
-  - path: Copy\PictoVR\PictoVR\.idea\.idea.PictoVR\.idea\contentModel.xml
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\.idea\.idea.PictoVR\.idea\contentModel.xml
-    projectPath: .idea\.idea.PictoVR\.idea\contentModel.xml
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Copy\PictoVR\PictoVR\.idea\.idea.PictoVR\.idea\workspace.xml
     fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\.idea\.idea.PictoVR\.idea\workspace.xml
     projectPath: .idea\.idea.PictoVR\.idea\workspace.xml
     originalPath: 
     status: 3
     staged: 0
-  - path: Copy\PictoVR\PictoVR\Assembly-CSharp.csproj
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Assembly-CSharp-Editor.csproj
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Assembly-CSharp-Editor.csproj
-    projectPath: Assembly-CSharp-Editor.csproj
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Assets\Prefabs\SpectatorUI.prefab
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Assets\Prefabs\SpectatorUI.prefab
-    projectPath: Assets\Prefabs\SpectatorUI.prefab
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Assets\Scenes\MainMenu.unity
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Assets\Scenes\MainMenu.unity
-    projectPath: Assets\Scenes\MainMenu.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Assets\Scripts\PictoGameManager.cs
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Assets\Scripts\PictoGameManager.cs
-    projectPath: Assets\Scripts\PictoGameManager.cs
+  - path: Copy\PictoVR\PictoVR\Assets\Scripts\MainMenu.cs
+    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Assets\Scripts\MainMenu.cs
+    projectPath: Assets\Scripts\MainMenu.cs
     originalPath: 
     status: 3
     staged: 0
@@ -69,21 +39,9 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
-  - path: Copy\PictoVR\PictoVR\Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Copy\PictoVR\PictoVR\Library\gfu\cache\gitlocks.yaml
     fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -105,27 +63,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Copy\PictoVR\PictoVR\Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Library\metadata\00\00000000000000004000000000000000
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Library\metadata\00\00000000000000004000000000000000
-    projectPath: Library\metadata\00\00000000000000004000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Library\metadata\3c\3c50160a40bfa244eb232c09ed300e03.info
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Library\metadata\3c\3c50160a40bfa244eb232c09ed300e03.info
-    projectPath: Library\metadata\3c\3c50160a40bfa244eb232c09ed300e03.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Library\metadata\71\7118926d670f1d9479fddc658baa0373
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Library\metadata\71\7118926d670f1d9479fddc658baa0373
-    projectPath: Library\metadata\71\7118926d670f1d9479fddc658baa0373
+  - path: Copy\PictoVR\PictoVR\Library\metadata\8e\8ef9bd4e68c94934091900cf16ec9e17
+    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Library\metadata\8e\8ef9bd4e68c94934091900cf16ec9e17
+    projectPath: Library\metadata\8e\8ef9bd4e68c94934091900cf16ec9e17
     originalPath: 
     status: 3
     staged: 0
@@ -147,12 +87,6 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Copy\PictoVR\PictoVR\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll.mdb
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll.mdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Copy\PictoVR\PictoVR\Temp\__Backupscenes\0.backup
     fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\__Backupscenes\0.backup
     projectPath: Temp\__Backupscenes\0.backup
@@ -171,255 +105,51 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-0b0ccb60a8ab79544bad305a95c19999
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-0b0ccb60a8ab79544bad305a95c19999
-    projectPath: Temp\UnityTempFile-0b0ccb60a8ab79544bad305a95c19999
+  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-19ad4b54e80a4434ba7114d11975ed38
+    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-19ad4b54e80a4434ba7114d11975ed38
+    projectPath: Temp\UnityTempFile-19ad4b54e80a4434ba7114d11975ed38
     originalPath: 
     status: 1
     staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-134b0d5a1dc26f04aaa7058a1a7a42ac
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-134b0d5a1dc26f04aaa7058a1a7a42ac
-    projectPath: Temp\UnityTempFile-134b0d5a1dc26f04aaa7058a1a7a42ac
+  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-482d03dd363428644b3f689d7dceb276
+    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-482d03dd363428644b3f689d7dceb276
+    projectPath: Temp\UnityTempFile-482d03dd363428644b3f689d7dceb276
     originalPath: 
     status: 1
     staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-141520622879d734a8fbc1ec44778b37
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-141520622879d734a8fbc1ec44778b37
-    projectPath: Temp\UnityTempFile-141520622879d734a8fbc1ec44778b37
+  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-48906be5b6996f240ae9fb2f2f7feaa4
+    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-48906be5b6996f240ae9fb2f2f7feaa4
+    projectPath: Temp\UnityTempFile-48906be5b6996f240ae9fb2f2f7feaa4
     originalPath: 
     status: 1
     staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-1a9e211082e199b4d87ff0e35dce62d2
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-1a9e211082e199b4d87ff0e35dce62d2
-    projectPath: Temp\UnityTempFile-1a9e211082e199b4d87ff0e35dce62d2
+  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-7337ed1c8f5dde54b84ae37784738f1a
+    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-7337ed1c8f5dde54b84ae37784738f1a
+    projectPath: Temp\UnityTempFile-7337ed1c8f5dde54b84ae37784738f1a
     originalPath: 
     status: 1
     staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-1be8646d0ce2a1543af9d2ae44c5fc13
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-1be8646d0ce2a1543af9d2ae44c5fc13
-    projectPath: Temp\UnityTempFile-1be8646d0ce2a1543af9d2ae44c5fc13
+  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-8e323494ec00bcc47929b8979ce1f419
+    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-8e323494ec00bcc47929b8979ce1f419
+    projectPath: Temp\UnityTempFile-8e323494ec00bcc47929b8979ce1f419
     originalPath: 
     status: 1
     staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-1f2eea23e0245ef4eb50e065abd2ef92
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-1f2eea23e0245ef4eb50e065abd2ef92
-    projectPath: Temp\UnityTempFile-1f2eea23e0245ef4eb50e065abd2ef92
+  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-9557ae6a78624b040be3421bb9497a3f
+    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-9557ae6a78624b040be3421bb9497a3f
+    projectPath: Temp\UnityTempFile-9557ae6a78624b040be3421bb9497a3f
     originalPath: 
     status: 1
     staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-201497d16586f9a49a0e6efb4ed22e66
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-201497d16586f9a49a0e6efb4ed22e66
-    projectPath: Temp\UnityTempFile-201497d16586f9a49a0e6efb4ed22e66
+  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-a17977164e18fc8488b23e9cef2155b1
+    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-a17977164e18fc8488b23e9cef2155b1
+    projectPath: Temp\UnityTempFile-a17977164e18fc8488b23e9cef2155b1
     originalPath: 
     status: 1
     staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-20e236bd7bc122343be858a370c557ba
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-20e236bd7bc122343be858a370c557ba
-    projectPath: Temp\UnityTempFile-20e236bd7bc122343be858a370c557ba
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-228c7379cd5f4e1499f29b0d10256d14
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-228c7379cd5f4e1499f29b0d10256d14
-    projectPath: Temp\UnityTempFile-228c7379cd5f4e1499f29b0d10256d14
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-2bb705429098f2546944de81085df390
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-2bb705429098f2546944de81085df390
-    projectPath: Temp\UnityTempFile-2bb705429098f2546944de81085df390
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-31f8044ea07bfa947b484c85dfd3243a
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-31f8044ea07bfa947b484c85dfd3243a
-    projectPath: Temp\UnityTempFile-31f8044ea07bfa947b484c85dfd3243a
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-40b0474ae27069245a1c31c00877f109
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-40b0474ae27069245a1c31c00877f109
-    projectPath: Temp\UnityTempFile-40b0474ae27069245a1c31c00877f109
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-40d889e3a86d7c641b75014288e5c2f5
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-40d889e3a86d7c641b75014288e5c2f5
-    projectPath: Temp\UnityTempFile-40d889e3a86d7c641b75014288e5c2f5
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-419219952f3dd6f41a1152d400cb444e
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-419219952f3dd6f41a1152d400cb444e
-    projectPath: Temp\UnityTempFile-419219952f3dd6f41a1152d400cb444e
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-5dad54ec0b3e43348bff64419e4e0e51
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-5dad54ec0b3e43348bff64419e4e0e51
-    projectPath: Temp\UnityTempFile-5dad54ec0b3e43348bff64419e4e0e51
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-5df9190d51198af43b1d9d7a5efac7a9
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-5df9190d51198af43b1d9d7a5efac7a9
-    projectPath: Temp\UnityTempFile-5df9190d51198af43b1d9d7a5efac7a9
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-6407d8a633445a54a9a51b970729a152
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-6407d8a633445a54a9a51b970729a152
-    projectPath: Temp\UnityTempFile-6407d8a633445a54a9a51b970729a152
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-73695df7ca909034593b0d5d70542f88
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-73695df7ca909034593b0d5d70542f88
-    projectPath: Temp\UnityTempFile-73695df7ca909034593b0d5d70542f88
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-7a5c77859051138409e58b0cc38fdcef
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-7a5c77859051138409e58b0cc38fdcef
-    projectPath: Temp\UnityTempFile-7a5c77859051138409e58b0cc38fdcef
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-87f53f9eb179714459b0d59ad8358664
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-87f53f9eb179714459b0d59ad8358664
-    projectPath: Temp\UnityTempFile-87f53f9eb179714459b0d59ad8358664
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-9057ccdbc35d73a489fb9a0a21cd7d83
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-9057ccdbc35d73a489fb9a0a21cd7d83
-    projectPath: Temp\UnityTempFile-9057ccdbc35d73a489fb9a0a21cd7d83
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-96483dbc26973ef44ab0144dbf3ed93c
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-96483dbc26973ef44ab0144dbf3ed93c
-    projectPath: Temp\UnityTempFile-96483dbc26973ef44ab0144dbf3ed93c
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-99536235ecb61c44bb985c4bab1066ae
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-99536235ecb61c44bb985c4bab1066ae
-    projectPath: Temp\UnityTempFile-99536235ecb61c44bb985c4bab1066ae
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-9b68d22b598b0284298d0fe2dc023653
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-9b68d22b598b0284298d0fe2dc023653
-    projectPath: Temp\UnityTempFile-9b68d22b598b0284298d0fe2dc023653
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-9fe87759fe2948c4485a10ac3471ccb4
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-9fe87759fe2948c4485a10ac3471ccb4
-    projectPath: Temp\UnityTempFile-9fe87759fe2948c4485a10ac3471ccb4
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-a1efbbafcd1abcf429d5503a8c4247a2
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-a1efbbafcd1abcf429d5503a8c4247a2
-    projectPath: Temp\UnityTempFile-a1efbbafcd1abcf429d5503a8c4247a2
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-a72c21a0124d3ba408a0e339670974e5
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-a72c21a0124d3ba408a0e339670974e5
-    projectPath: Temp\UnityTempFile-a72c21a0124d3ba408a0e339670974e5
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-acdd9fc1901468545935442db26ee54f
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-acdd9fc1901468545935442db26ee54f
-    projectPath: Temp\UnityTempFile-acdd9fc1901468545935442db26ee54f
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-ad15796d6e011654ba097cb02e89e362
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-ad15796d6e011654ba097cb02e89e362
-    projectPath: Temp\UnityTempFile-ad15796d6e011654ba097cb02e89e362
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-b90e70a04791f7d47950cdb4ce77493c
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-b90e70a04791f7d47950cdb4ce77493c
-    projectPath: Temp\UnityTempFile-b90e70a04791f7d47950cdb4ce77493c
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-c09df847798b3fe488652342e25496f5
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-c09df847798b3fe488652342e25496f5
-    projectPath: Temp\UnityTempFile-c09df847798b3fe488652342e25496f5
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-c34937a813152354f81d41ed7d27fca2
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-c34937a813152354f81d41ed7d27fca2
-    projectPath: Temp\UnityTempFile-c34937a813152354f81d41ed7d27fca2
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-ce074f00eaf80ae4c8edbbf805499605
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-ce074f00eaf80ae4c8edbbf805499605
-    projectPath: Temp\UnityTempFile-ce074f00eaf80ae4c8edbbf805499605
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-de27f666bfca7bb499a9d464b3eb2b08
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-de27f666bfca7bb499a9d464b3eb2b08
-    projectPath: Temp\UnityTempFile-de27f666bfca7bb499a9d464b3eb2b08
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-e8a7a6cc99a87bf4bb353061c5c76c5b
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-e8a7a6cc99a87bf4bb353061c5c76c5b
-    projectPath: Temp\UnityTempFile-e8a7a6cc99a87bf4bb353061c5c76c5b
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-eaca9451af793db4e95184c9a46e30c7
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-eaca9451af793db4e95184c9a46e30c7
-    projectPath: Temp\UnityTempFile-eaca9451af793db4e95184c9a46e30c7
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-f2b2239c379195347bd2a08a39bf7ad5
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-f2b2239c379195347bd2a08a39bf7ad5
-    projectPath: Temp\UnityTempFile-f2b2239c379195347bd2a08a39bf7ad5
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-f58e70fe07d701c499b6fcd4ba7e34c4
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-f58e70fe07d701c499b6fcd4ba7e34c4
-    projectPath: Temp\UnityTempFile-f58e70fe07d701c499b6fcd4ba7e34c4
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-f71f95e36862d2847acb28407beba3d7
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-f71f95e36862d2847acb28407beba3d7
-    projectPath: Temp\UnityTempFile-f71f95e36862d2847acb28407beba3d7
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-f81bbeab5664a9048a41a016e2b3743c
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-f81bbeab5664a9048a41a016e2b3743c
-    projectPath: Temp\UnityTempFile-f81bbeab5664a9048a41a016e2b3743c
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-fc9d36ee22529f144aacb6d61c85b35b
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-fc9d36ee22529f144aacb6d61c85b35b
-    projectPath: Temp\UnityTempFile-fc9d36ee22529f144aacb6d61c85b35b
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-fca551edbacda9d41b4c9b27041439d4
-    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-fca551edbacda9d41b4c9b27041439d4
-    projectPath: Temp\UnityTempFile-fca551edbacda9d41b4c9b27041439d4
+  - path: Copy\PictoVR\PictoVR\Temp\UnityTempFile-fcbbbb52739954c4fb389eaef8530649
+    fullPath: C:\Users\Alexis\Documents\GitHub\PictoVR\Copy\PictoVR\PictoVR\Temp\UnityTempFile-fcbbbb52739954c4fb389eaef8530649
+    projectPath: Temp\UnityTempFile-fcbbbb52739954c4fb389eaef8530649
     originalPath: 
     status: 1
     staged: 0

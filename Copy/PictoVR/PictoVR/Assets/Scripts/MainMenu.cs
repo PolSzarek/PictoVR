@@ -44,6 +44,7 @@ public class MainMenu : MonoBehaviour
 		Debug.Log(_gameConfig.TimeRound);
 
 		int index = Random.Range(1, 2);
+		Debug.Log("Loading scene " + index);
 
 		GameManager.GetComponent<PictoGameManager>().nbRounds = (int) _gameConfig.NbRound;
 		GameManager.GetComponent<PictoGameManager>().timeRounds = (_gameConfig.TimeRound * 10);
